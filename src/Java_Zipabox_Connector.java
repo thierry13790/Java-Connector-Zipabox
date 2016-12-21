@@ -361,29 +361,7 @@ import java.sql.*;
 	  
 	return (Key_Value);  
   }
-
-  
-  /*private void doHttpUrlConnectionPutAction(String desiredUrl,String PutContents)
-		  throws Exception
-  {
-	  URL url = new URL(desiredUrl);
-	  HttpURLConnection httpCon = (HttpURLConnection) url.openConnection();
-	  httpCon.setDoOutput(true);
-	  // httpCon.setRequestMethod("PUT");
-	   httpCon.setRequestMethod("POST");
-	  
-	  OutputStreamWriter out = new OutputStreamWriter(
-	      httpCon.getOutputStream());
-	  out.write(PutContents);
-	  out.close();
-	  httpCon.getInputStream();
-	  
-	  Reader in = new BufferedReader(new InputStreamReader(httpCon.getInputStream(), "UTF-8"));
-      for (int c; (c = in.read()) >= 0; System.out.print((char)c));
-      
-      System.out.print("Fin");
-     
-  } */
+ 
   private String Build_Sha1(String input) throws NoSuchAlgorithmException
   {
 	  String output_string;
